@@ -14,3 +14,14 @@ const obj4 = {5: "a", 6: "b"}
 const obj3 = Object.assign({},obj1 , obj2, obj4)
 
 console.log(obj3);
+
+const course = {
+    coursename : "Js in Nepali",
+    price : "999",
+    Instructor : "Hitesh"
+}
+
+const {Instructor} = course;
+
+console.log(Instructor);
+
